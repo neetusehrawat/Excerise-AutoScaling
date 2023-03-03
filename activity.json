@@ -1,0 +1,26 @@
+{
+    "Activities": [
+        {
+            "Description": "Launching a new EC2 instance: i-01b8697247e0d483d", 
+            "AutoScalingGroupName": "web-autoscaling-group", 
+            "ActivityId": "10761aa2-eac1-c4d0-f76d-4088042cd5de", 
+            "Details": "{\"Subnet ID\":\"subnet-044e018ea382c7654\",\"Availability Zone\":\"us-west-2b\"}", 
+            "StartTime": "2023-03-03T18:27:32.593Z", 
+            "Progress": 100, 
+            "EndTime": "2023-03-03T18:28:04Z", 
+            "Cause": "At 2023-03-03T18:27:25Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 2.  At 2023-03-03T18:27:30Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 2.", 
+            "StatusCode": "Successful"
+        }, 
+        {
+            "Description": "Launching a new EC2 instance: i-0980ca29fe85a3b5e", 
+            "AutoScalingGroupName": "web-autoscaling-group", 
+            "ActivityId": "6f661aa2-eac1-9f5b-4845-ce75bf857742", 
+            "Details": "{\"Subnet ID\":\"subnet-0fd1dcefcf216d0f0\",\"Availability Zone\":\"us-west-2a\"}", 
+            "StartTime": "2023-03-03T18:27:32.583Z", 
+            "Progress": 100, 
+            "EndTime": "2023-03-03T18:28:05Z", 
+            "Cause": "At 2023-03-03T18:27:25Z a user request created an AutoScalingGroup changing the desired capacity from 0 to 2.  At 2023-03-03T18:27:30Z an instance was started in response to a difference between desired and actual capacity, increasing the capacity from 0 to 2.", 
+            "StatusCode": "Successful"
+        }
+    ]
+}
